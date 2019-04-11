@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/robin/Learning/FixPoint/main.cpp
+iostream
+-
+sstream
+-
+vector
+-
+iterator
+-
+algorithm
+-
+cstring
+-
+fstream
+-
+unordered_set
+-
+functional
+-
+

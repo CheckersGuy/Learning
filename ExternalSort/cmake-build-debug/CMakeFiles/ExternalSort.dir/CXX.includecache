@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/robin/Learning/ExternalSort/main.cpp
+iostream
+-
+cstring
+-
+memory
+-
+fstream
+-
+vector
+-
+sstream
+-
+algorithm
+-
+iterator
+-
+random
+-
+

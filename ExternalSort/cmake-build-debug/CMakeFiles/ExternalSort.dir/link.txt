@@ -1,0 +1,1 @@
+/usr/bin/g++-8  -g   CMakeFiles/ExternalSort.dir/main.cpp.o  -o ExternalSort 
