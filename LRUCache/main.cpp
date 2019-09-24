@@ -1,6 +1,20 @@
 #include <iostream>
+#include "Cache.h"
+
+
+
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    Cache<int,int> cache(100);
+    cache.put(1,1);
+    cache.put(2,2);
+    cache.put(3,3);
+    cache.get(1);
+
+
+    for(auto& [key, value] : cache){
+        std::cout<<"Key"<<key<<" Value "<<value<<std::endl;
+    }
+
     return 0;
 }
