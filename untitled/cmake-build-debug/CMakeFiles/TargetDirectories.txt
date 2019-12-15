@@ -1,3 +1,0 @@
-/home/robin/Learning/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/robin/Learning/untitled/cmake-build-debug/CMakeFiles/untitled.dir
-/home/robin/Learning/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir
