@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/robin/Learning/testing/cmake-build-debug"/>
+				<Option working_dir="/home/robin/Learning/Concurrency/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/robin/Learning/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/robin/Learning/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/robin/Learning/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/robin/Learning/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/robin/Learning/Concurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/robin/Learning/Concurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/robin/Learning/Concurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/robin/Learning/Concurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/robin/Learning/testing/cmake-build-debug"/>
+				<Option working_dir="/home/robin/Learning/Concurrency/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/robin/Learning/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/robin/Learning/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/robin/Learning/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/robin/Learning/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/robin/Learning/Concurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/robin/Learning/Concurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/robin/Learning/Concurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/robin/Learning/Concurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="testing">
-				<Option output="/home/robin/Learning/testing/cmake-build-debug/testing" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/robin/Learning/testing/cmake-build-debug"/>
+				<Option output="/home/robin/Learning/Concurrency/cmake-build-debug/testing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/robin/Learning/Concurrency/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -44,15 +44,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/robin/Learning/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 testing"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/robin/Learning/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/robin/Learning/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/robin/Learning/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/robin/Learning/Concurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 testing"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/robin/Learning/Concurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/robin/Learning/Concurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/robin/Learning/Concurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="testing/fast">
-				<Option output="/home/robin/Learning/testing/cmake-build-debug/testing" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/robin/Learning/testing/cmake-build-debug"/>
+				<Option output="/home/robin/Learning/Concurrency/cmake-build-debug/testing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/robin/Learning/Concurrency/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -67,42 +67,48 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/robin/Learning/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 testing/fast"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/robin/Learning/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/robin/Learning/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/robin/Learning/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/robin/Learning/Concurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 testing/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/robin/Learning/Concurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/robin/Learning/Concurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/robin/Learning/Concurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/robin/Learning/testing/cmake-build-debug"/>
+				<Option working_dir="/home/robin/Learning/Concurrency/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/robin/Learning/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/robin/Learning/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/robin/Learning/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/robin/Learning/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/robin/Learning/Concurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/robin/Learning/Concurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/robin/Learning/Concurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/robin/Learning/Concurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/robin/Learning/testing/SaveList.h">
+		<Unit filename="/home/robin/Learning/Concurrency/Algorithms.h">
 			<Option target="testing"/>
 		</Unit>
-		<Unit filename="/home/robin/Learning/testing/SaveQueue.h">
+		<Unit filename="/home/robin/Learning/Concurrency/EventHandler.h">
 			<Option target="testing"/>
 		</Unit>
-		<Unit filename="/home/robin/Learning/testing/SaveQueue2.h">
+		<Unit filename="/home/robin/Learning/Concurrency/SaveList.h">
 			<Option target="testing"/>
 		</Unit>
-		<Unit filename="/home/robin/Learning/testing/ThreadPool.cpp">
+		<Unit filename="/home/robin/Learning/Concurrency/SaveQueue.h">
 			<Option target="testing"/>
 		</Unit>
-		<Unit filename="/home/robin/Learning/testing/ThreadPool.h">
+		<Unit filename="/home/robin/Learning/Concurrency/SaveQueue2.h">
 			<Option target="testing"/>
 		</Unit>
-		<Unit filename="/home/robin/Learning/testing/main.cpp">
+		<Unit filename="/home/robin/Learning/Concurrency/ThreadPool.cpp">
 			<Option target="testing"/>
 		</Unit>
-		<Unit filename="/home/robin/Learning/testing/CMakeLists.txt">
+		<Unit filename="/home/robin/Learning/Concurrency/ThreadPool.h">
+			<Option target="testing"/>
+		</Unit>
+		<Unit filename="/home/robin/Learning/Concurrency/main.cpp">
+			<Option target="testing"/>
+		</Unit>
+		<Unit filename="/home/robin/Learning/Concurrency/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

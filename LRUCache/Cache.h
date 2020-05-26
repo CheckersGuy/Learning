@@ -8,14 +8,14 @@
 
 #include <list>
 #include <unordered_map>
+//should look at this implementation again
 
-
-template<class K, class T>
+template<class K, class T, typename Hasher = std::hash<K>>
 class Cache {
 private:
 
     mutable std::list<std::pair<K, T>> liste;
-    std::unordered_map<K, decltype(liste.begin())> map;
+    std::unordered_map<K, decltype(liste.begin()), Hasher> map;
     size_t cacheSize;
 public:
 
@@ -39,15 +39,14 @@ public:
 
     }
 
-    std::optional<T> get(K key) const{
-        std::optional<T> result;
+    std::optional<T> get(K key) const {
         auto iter = map.find(key);
         if (iter != map.end()) {
             //need to move it to the front though
             liste.splice(liste.begin(), liste, iter->second);
-            result = iter->second->second;
+            return std::make_optional(iter->second->second);
         }
-        return result;
+        return std::nullopt;
     }
 
     auto begin() {

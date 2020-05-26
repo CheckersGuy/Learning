@@ -1,1 +1,1 @@
-/usr/bin/g++-8  -O3 -ffast-math -pthread -DNDEBUG -march=native   -flto -ffat-lto-objects -fuse-linker-plugin  -g   CMakeFiles/testing.dir/main.cpp.o  -o testing 
+/usr/bin/c++  -O3 -ffast-math -pthread -DNDEBUG -march=native   -flto -ffat-lto-objects -fuse-linker-plugin  -g   CMakeFiles/testing.dir/main.cpp.o  -o testing 

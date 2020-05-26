@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/robin/Learning/HashTable/main.cpp
+iostream
+-
+mutex
+-
+condition_variable
+-
+atomic
+-
+thread
+-
+cstring
+-
+optional
+-
+vector
+-
+algorithm
+-
+
