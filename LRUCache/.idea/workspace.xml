@@ -143,12 +143,12 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.Build All">
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LRUCache" RUN_TARGET_NAME="LRUCache" EXPLICIT_BUILD_TARGET_NAME="all">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LRUCache" RUN_TARGET_NAME="LRUCache" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LRUCache" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LRUCache" TARGET_NAME="LRUCache" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LRUCache" RUN_TARGET_NAME="LRUCache">
+    <configuration name="LRUCache" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LRUCache" TARGET_NAME="LRUCache" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LRUCache" RUN_TARGET_NAME="LRUCache">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>

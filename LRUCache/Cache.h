@@ -19,7 +19,7 @@ private:
     size_t cacheSize;
 public:
 
-    Cache(size_t size) : cacheSize(size) {}
+    explicit Cache(size_t size) : cacheSize(size) {}
 
     void put(K key, T value) {
         auto iter = map.find(key);
@@ -28,8 +28,8 @@ public:
             //not in the list
             if (map.size() > cacheSize) {
                 auto &back = liste.back();
-                liste.pop_back();
                 map.erase(back.first);
+                liste.pop_back();
             }
             liste.push_front(std::make_pair(key, value));
             map.insert(std::make_pair(key, liste.begin()));
