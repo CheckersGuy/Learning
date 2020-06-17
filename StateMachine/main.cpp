@@ -1,5 +1,11 @@
 #include <iostream>
 #include <variant>
+#include <vector>
+#include <algorithm>
+#include <iterator>
+#include <filesystem>
+#include <array>
+
 //This project is dedicated to learning more about state-machines
 //and how they can be efficiently implemented
 
@@ -49,7 +55,6 @@ void VendingMachine::run() {
             return state;
         }, [](PickingState &state) -> State {
             std::cout << "Wie viel geld moechten sie abheben ?" << std::endl;
-            std::cerr<<"PickingCounter: "<<state.picking_counter<<std::endl;
             std::string input_message;
             std::getline(std::cin, input_message);
             if (input_message.find_first_not_of("0123456789") == std::string::npos) {
@@ -62,9 +67,10 @@ void VendingMachine::run() {
     }
 }
 
+
+
+
 int main() {
 
-    VendingMachine machine;
-    machine.run();
     return 0;
 }

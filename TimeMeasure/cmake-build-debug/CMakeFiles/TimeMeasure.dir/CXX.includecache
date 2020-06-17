@@ -6,19 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/robin/Learning/StateMachine/main.cpp
+/home/robin/Learning/TimeMeasure/main.cpp
 iostream
 -
-variant
+chrono
 -
-vector
--
-algorithm
--
-iterator
--
-filesystem
--
-array
+thread
 -
 

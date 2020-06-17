@@ -1,0 +1,1 @@
+/usr/bin/c++  -Ofast -pthread -DNDEBUG -march=native -flto -ffat-lto-objects -fuse-linker-plugin  -g   CMakeFiles/FileSystem.dir/main.cpp.o  -o FileSystem 

@@ -6,19 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/robin/Learning/StateMachine/main.cpp
+/home/robin/Learning/FileSystem/main.cpp
 iostream
 -
-variant
--
-vector
--
-algorithm
--
-iterator
--
 filesystem
--
-array
 -
 

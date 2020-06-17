@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/TimeMeasure.dir/main.cpp.o  -o TimeMeasure 
