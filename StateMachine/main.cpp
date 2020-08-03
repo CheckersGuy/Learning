@@ -5,7 +5,7 @@
 #include <iterator>
 #include <filesystem>
 #include <array>
-
+#include <list>
 //This project is dedicated to learning more about state-machines
 //and how they can be efficiently implemented
 
@@ -67,10 +67,11 @@ void VendingMachine::run() {
     }
 }
 
-
-
+//There is a nice implementation of a state machine out there. I only need to find the
+//motivation to finish that one :P
 
 int main() {
+
 
     return 0;
 }

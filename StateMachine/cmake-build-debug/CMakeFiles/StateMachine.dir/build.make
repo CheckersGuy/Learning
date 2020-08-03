@@ -60,15 +60,15 @@ include CMakeFiles/StateMachine.dir/flags.make
 CMakeFiles/StateMachine.dir/main.cpp.o: CMakeFiles/StateMachine.dir/flags.make
 CMakeFiles/StateMachine.dir/main.cpp.o: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robin/Learning/StateMachine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/StateMachine.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/StateMachine.dir/main.cpp.o -c /home/robin/Learning/StateMachine/main.cpp
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/StateMachine.dir/main.cpp.o -c /home/robin/Learning/StateMachine/main.cpp
 
 CMakeFiles/StateMachine.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/StateMachine.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robin/Learning/StateMachine/main.cpp > CMakeFiles/StateMachine.dir/main.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robin/Learning/StateMachine/main.cpp > CMakeFiles/StateMachine.dir/main.cpp.i
 
 CMakeFiles/StateMachine.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/StateMachine.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robin/Learning/StateMachine/main.cpp -o CMakeFiles/StateMachine.dir/main.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robin/Learning/StateMachine/main.cpp -o CMakeFiles/StateMachine.dir/main.cpp.s
 
 # Object files for target StateMachine
 StateMachine_OBJECTS = \
